@@ -65,8 +65,8 @@
         </section>
         <section class="terms" id="termssection">
             <a href="#legality" class="terms__link">LEGALITY</a>
-            <a href="#privacy" class="terms__link" onclick="lockScroll();">PRIVACY POLICY</a>
-            <a href="#terms" class="terms__link" onclick="lockScroll();">TERMS AND CONDITIONS</a>
+            <a href="#privacy" class="terms__link">PRIVACY POLICY</a>
+            <a href="#terms" class="terms__link">TERMS AND CONDITIONS</a>
             <!-- <div id="legality" class="overlay">
                 <div class="popup">
                     <h2 class="popup__head">LEGALITY</h2>
@@ -84,7 +84,7 @@
             <div id="privacy" class="overlay">
                 <div class="popup">
                     <h2 class="popup__head">PRIVACY POLICY</h2>
-                    <a class="close" href="#termssection" onclick="UnlockScroll();">&times;</a>
+                    <a class="close" href="#termssection">&times;</a>
                     <div class="content">
                         <h1 class="popup__heading">Privacy Policy of LUDO STRIKERS</h1>
                         <p>Last updated: November, 2021 </p>
@@ -252,9 +252,10 @@
                 </div>
             </div>
             <div id="terms" class="overlay">
+                <div class="full">
                 <div class="popup">
                     <h2 class="popup__head">TERMS AND CONDITIONS</h2>
-                    <a class="close" href="#termssection" onclick="UnlockScroll();">&times;</a>
+                    <a class="close" href="#termssection">&times;</a>
                     <div class="content">
                         <h1 class="popup__heading">Terms of Service of LUDO STRIKERS</h1>
                         <p>Last Updated: November, 2021 </p>
@@ -364,6 +365,7 @@
                         </ul>
                     </div>
                 </div>
+                </div>
             </div>
         </section>
         <section class="copyright">
@@ -420,17 +422,17 @@
             //     }
             // }
             // disable background scroll on click of popup
-            function lockScroll() {
-                document.getElementsByTagName("html")[0].classList.add('lock-scroll');
-                //document.getElementsByTagName("html").classList.remove('unlock-scroll');
-                // pause video
-                // var video = document.getElementsByClassName('videos')[0]
-                // video.pause();
-            }
-            function UnlockScroll() {
-                document.getElementsByTagName("html")[0].classList.remove('lock-scroll');
-                document.getElementsByTagName("html")[0].classList.add('unlock-scroll');
-            }
+            // function lockScroll() {
+            //     document.getElementsByTagName("body")[0].classList.add('lock-scroll');
+            //     //document.getElementsByTagName("html").classList.remove('unlock-scroll');
+            //     // pause video
+            //     // var video = document.getElementsByClassName('videos')[0]
+            //     // video.pause();
+            // }
+            // function UnlockScroll() {
+            //     document.getElementsByTagName("body")[0].classList.remove('lock-scroll');
+            //     document.getElementsByTagName("body")[0].classList.add('unlock-scroll');
+            // }
         </script>
 	</body>
 </html>
