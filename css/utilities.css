@@ -1,0 +1,22 @@
+a{
+    text-decoration: none;
+}
+.align-center{
+    text-align: center;
+}
+.full-width{
+    width: 100%;
+}
+.font--weight--600 {
+    font-weight: 600;
+}
+.flex {
+    display: flex;
+}
+.flex-center{
+    justify-content: center;
+    flex-direction: column;
+}
+.padding-left0 {
+    padding-left: 1rem;
+}
